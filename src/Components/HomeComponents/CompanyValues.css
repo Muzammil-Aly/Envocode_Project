@@ -1,0 +1,123 @@
+.company-section {
+  padding: 50px 0 50px 50px;
+  margin: 0 200px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.section-heading {
+  font-size: 1rem;
+  color: #007bff;
+  margin-right: 22px;
+}
+
+.why-choose-section {
+  margin-bottom: 50px;
+}
+
+.why-choose-content {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.text-content {
+  flex: 1;
+  text-align: left;
+}
+
+.why-choose-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+.our-process-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 40px 300px;
+}
+
+.image-content img {
+  height: auto;
+  border-radius: 10px;
+  padding: 50px 0 30px 30px;
+  max-width: 100%;
+}
+
+.contact-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+.values-container {
+  margin-top: 100px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 70px;
+}
+
+/* For smaller screens, make it two columns */
+@media screen and (max-width: 1200px) {
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For mobile devices, switch to a single column */
+@media screen and (max-width: 768px) {
+  .values-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.value-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  text-align: center;
+}
+
+.value-card:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+}

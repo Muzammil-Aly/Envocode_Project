@@ -1,0 +1,48 @@
+.pricing {
+  background-color: #d1d8e2;
+  color: #333;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 200px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+.pricing-text {
+  margin-left: 100px;
+}
+.pricing-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.pricing-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.value-for-money {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.get-quote {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-quote:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,67 @@
+.main-container {
+  background-color: #e0e3e5;
+  background-image: url("https://arbisoft.com/images/bg-10.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 400px 300px;
+}
+.Collab-main {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 400px;
+}
+.main-heading-colab {
+  font-size: 48px;
+  color: #1b232e;
+  font-weight: 600;
+}
+.custom-mark {
+  background-color: transparent;
+  color: #1c64ea;
+}
+.Space {
+  font-size: 48px;
+  margin-left: 220px;
+  font-weight: 600;
+}
+.digit-text {
+  color: #fff;
+  font-size: 35px;
+}
+
+.digit-text-sibling {
+  font-size: 18px;
+  color: #9eacbf;
+}
+
+.card {
+  display: flex;
+  background-color: #1b232e;
+  border-radius: 30px;
+  margin-right: 380px;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.vertical-line-colab {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 30px;
+  width: 2px;
+  height: 50px;
+  background-color: white;
+}
+
+.f-item {
+  display: flex;
+  padding-right: 17px;
+}
+.Collab-container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.slider-section {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,88 @@
+.offerings-container {
+  margin: 50px 200px;
+}
+.verical-line-offerings {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 30px;
+  width: 2px;
+  height: 410px;
+  background-color: blue;
+  position: relative;
+}
+.offerings-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Offerings-Heading {
+  font-size: 48px;
+  color: #2065d5;
+  text-align: center;
+  font-weight: 500;
+}
+.our {
+  color: #585858;
+}
+.services-list {
+  font-size: 20px;
+}
+.offerings-text {
+  padding: 20px 100px 20px 20px;
+  margin-right: 120px;
+  margin-top: 100px;
+}
+
+.offerings-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.offerings-text p {
+  line-height: 1.2;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.content-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.offerings-content-child {
+  display: flex;
+}
+
+.small-button {
+  position: absolute;
+  left: -5px;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 10%;
+  border-radius: 20px;
+  width: 0.25em;
+  content: " ";
+  background: #0a76db;
+}
+
+.services-list button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  width: auto;
+  cursor: pointer;
+}
+
+.services-list:hover {
+  transform: translateX(10px);
+}
+
+.services-list:active {
+  transform: translateX(0);
+}
+.offerings-text img {
+  height: 100px;
+  margin-left: 700px;
+}

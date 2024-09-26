@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/App.css or a similar global CSS file */
+body {
+  font-family: "Outfit", sans-serif;
+  /* margin-left: 200px; */
+  /* margin-right: 200px; */
+}
+.inter-family {
+  font-family: "Inter", sans-serif;
+}
