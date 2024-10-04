@@ -54,7 +54,7 @@ const CompanyValues = () => {
       </div>
 
       <div className="values-container">
-        <h3 className="section-heading section-title">Work Process</h3>
+        <h3 className="section-heading ">Work Process</h3>
 
         <h2 className="section-title">Our Process</h2>
 

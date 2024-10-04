@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <HeroSec />
       <Collaborations />
-      <Offerings />
+      <Offerings fname="Our" sname="Offerings" />
       <TrainingPrograms />
       <PricingSection />
       <CompanyValues />

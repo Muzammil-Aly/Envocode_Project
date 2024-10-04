@@ -1,5 +1,6 @@
 import React from "react";
 import "./PricingSection.css";
+import { Link } from "react-router-dom";
 
 const PricingSection = () => {
   return (
@@ -13,7 +14,9 @@ const PricingSection = () => {
           compromising on quality. Our transparent pricing model ensures that
           you understand every aspect of the cost involved, with no hidden fees.
         </p>
-        <button className="get-quote">Get Your Free Quote</button>
+        <Link to="/contact">
+          <button className="get-quote">Get Your Free Quote</button>
+        </Link>
       </div>
       <div>
         <img

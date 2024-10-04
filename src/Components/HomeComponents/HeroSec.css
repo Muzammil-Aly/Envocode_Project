@@ -1,17 +1,17 @@
 .hero-sec {
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 200px;
+  display: flex;
 }
+
 .main-heading {
-  font-size: clamp(32px, 4.5vw, 72px);
+  font-size: clamp(2rem, 4.5vw, 4.5rem);
   color: #1b232e;
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .hero-sec-text {
-  font-size: clamp(16px, 1.5vw, 18px);
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
   line-height: 1.5;
   margin-bottom: 1em;
 }
@@ -21,7 +21,7 @@
   background-color: #2065d5;
   color: white;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 1.125rem;
   cursor: pointer;
   border: none;
   box-sizing: border-box;
@@ -32,14 +32,13 @@
   background-color: #6d7782;
   transform: scale(1.05);
 }
+
 .Hero-sec-buttons {
   margin-top: 50px;
 }
-.hero-sec {
-  display: flex;
-}
 
 .Hero-sec-imgs img {
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px;
   margin-bottom: 10px;
 }

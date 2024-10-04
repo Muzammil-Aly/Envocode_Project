@@ -26,18 +26,18 @@ const Testmonial = () => {
   const [animating, setAnimating] = useState(false);
 
   const handleNext = () => {
-    if (animating) return; // Prevent spam clicks
+    if (animating) return;
     setAnimating(true);
     setTimeout(() => {
       setCurrentIndex(
         (prevIndex) => (prevIndex + 1) % TestmonialDetails.length
       );
       setAnimating(false);
-    }, 600); // Same duration as the CSS animation
+    }, 600);
   };
 
   const handlePrev = () => {
-    if (animating) return; // Prevent spam clicks
+    if (animating) return;
     setAnimating(true);
     setTimeout(() => {
       setCurrentIndex(

@@ -1,0 +1,161 @@
+.services-container {
+  margin: 0 200px;
+  margin-top: 20px;
+  color: #333;
+  background-color: #f2f4f7;
+  border-radius: 10px;
+}
+
+.services-header {
+  display: flex;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  background-color: #d1d8e2;
+  padding-bottom: 40px;
+}
+.services-title-section {
+  margin-top: 40px;
+  margin-left: 50px;
+  line-height: 1.2;
+}
+
+.service-title {
+  font-size: 3.5em;
+  font-weight: 600;
+  opacity: 0;
+  animation: scaleIn 1.2s ease-out forwards;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.service-subtitle {
+  margin-bottom: 50px;
+}
+.service-subtitle {
+  font-size: 1.2em;
+}
+.services-we-offer-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services-we-offer-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.services-we-offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services-we-offer-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-we-offer-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.services-we-offer-icon {
+  font-size: 40px;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.services-we-offer-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.services-we-offer-description {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.6;
+}
+.join-our-team {
+  padding: 100px 50px;
+  margin: 0 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.join-our-team-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.join-our-team-subtitle {
+  font-size: 1em;
+  margin-bottom: 50px;
+  color: #666;
+  margin: 20px 400px;
+}
+
+.job-listing {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  width: 30%;
+  margin: 20px;
+  background-color: #d1d8e2;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}
+
+.job-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.job-description {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+.join-our-team-start {
+  color: #0056b3;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

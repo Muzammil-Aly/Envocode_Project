@@ -1,50 +1,96 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 const Navbar = () => {
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const toggleSearchBar = () => {
+    setIsSearchOpen(!isSearchOpen);
+    if (isSearchOpen) {
+      setSearchQuery("");
+    }
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    console.log("Searching for:", searchQuery);
+  };
+
   return (
     <>
       <nav className="navbar-container">
         <div className="nav-logo">
-          <a src="#">
+          <Link to="#">
             <img
               src="https://envocode.com/wp-content/uploads/2024/01/envocodelogo-1.png"
               alt="logo"
             />
-          </a>
+          </Link>
         </div>
 
         <div className="nav-elements">
           <div className="nav-links">
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a href="#about">About Us</a>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-
-              <li>
-                <a href="#contact">Contact Us</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <button className="nav-search-icon" type="submit">
+                <Link to="/contact">Contact Us</Link>
+              </li>
+              <li>
+                <button
+                  className="nav-search-icon"
+                  type="button"
+                  onClick={toggleSearchBar}
+                >
                   <FontAwesomeIcon icon={faSearch} />
                 </button>
               </li>
             </ul>
           </div>
         </div>
+
         <div className="nav-search">
-          <button className="nav-button">Start Project</button>
+          <Link to="/contact">
+            <button className="nav-button">Start Project</button>
+          </Link>
         </div>
+
+        {isSearchOpen && (
+          <div className="search-overlay">
+            <div className="search-bar">
+              <form onSubmit={handleSearchSubmit}>
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  value={searchQuery}
+                  onChange={handleSearchChange}
+                />
+                <button type="button" onClick={toggleSearchBar}>
+                  Close
+                </button>
+                <button type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        )}
       </nav>
     </>
   );

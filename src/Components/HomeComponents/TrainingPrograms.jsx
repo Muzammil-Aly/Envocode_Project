@@ -50,11 +50,7 @@ const TrainingPrograms = () => {
           <div key={program.id} className="program-card">
             <div className="program-inner">
               <div className="program-front">
-                <img
-                  src={program.image}
-                  //   alt={program.title}
-                  className="program-image"
-                />
+                <img src={program.image} className="program-image" />
                 <h3 className="program-title-outer">{program.title}</h3>
               </div>
               <div className="program-back">
